@@ -10,33 +10,70 @@ install both Rasa and Rasa X using pip:
 
 * pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 
-Start Conversation:
-
-* rasa run actions & rasa shell
 
 ### Train Own Custom Intent and Entities:
 
-(1) Rasa NLU Training - build intent, entity classifier model
-(2) Rasa Core Training - model will understand the conversations with the intent & entity
+* Rasa NLU Training - build intent, entity classifier model
+* Rasa Core Training - model will understand the conversations with the intent & entity
 
-##### Add New Intent:
-* domain.yml - intents to add new intent
+##### CREATE NEW PROJECT:
 
-##### Add New Entity:
-* domain.yml - entities to add new entity
+* rasa init --no-prompt
 
-##### Add New Action:
-* domain.yml - actions to add new action
+##### INSTALL RASA NLU TRAINER:
 
-##### Add New Action Template Text:
-* domain.yml - templates to add new text for action
+* sudo npm i -g rasa-nlu-trainer
 
-##### Add New Slot:
-* domain.yml - slots to add new entity name with the type
+##### RUN RASA NLU TRAINER:
 
-##### Start Training
+* rasa-nlu-trainer --source data/data.json
+
+##### TRAIN NLU MODEL:
+
+* rasa train nlu
+
+##### Test NLU MODEL:
+
+* rasa shell nlu
+
+##### TRAIN Dialogue Management:
+
 * rasa train
 
-##### Test bot
+##### TEST Dialogue Management:
+
 * rasa shell
+
+##### INTERACTIVE TRAIN:
+
+* rasa interactive
+
+##### Note:
+before interactive if you have custom actions Actions.py, you must run on this comment in another terminal.
+
+* rasa run actions 
+* rasa interactive
+
+####### Main Demo in terminal
+
+* rasa run actions && rasa shell
+
+### More Infromation:
+###### Visualisation at 
+* http://localhost:5006/visualization.html.
+
+###### Add New Intent:
+* domain.yml - intents to add new intent
+
+###### Add New Entity:
+* domain.yml - entities to add new entity
+
+###### Add New Action:
+* domain.yml - actions to add new action
+
+###### Add New Action Template Text:
+* domain.yml - templates to add new text for action
+
+###### Add New Slot:
+* domain.yml - slots to add new entity name with the type
 
