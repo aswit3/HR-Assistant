@@ -1,7 +1,6 @@
 actions:
 - action_hello_world
 - action_program_skills
-- action_python_program
 - utter_ask_skills
 - utter_cheer_up
 - utter_did_that_help
@@ -13,8 +12,8 @@ entities:
 - program_type
 intents:
 - greet
-- mood_great
 - inform
+- mood_great
 - goodbye
 - affirm
 - deny
@@ -22,7 +21,7 @@ intents:
 - bot_challenge
 slots:
   program_type:
-    type: unfeaturized
+    type: list
 templates:
   utter_ask_skills:
   - text: What is your knowledge in programming?

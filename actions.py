@@ -11,7 +11,7 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet
+
 
 class ActionHelloWorld(Action):
 
@@ -35,21 +35,6 @@ class ActionProgramSkills(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        program_type = tracker.get_slot("program_type")
-
-        dispatcher.utter_message(f"Hello Welcome To Our {program_type} Programming World!")
-
-        return []
-
-class ActionPythonProgram(Action):
-
-    def name(self) -> Text:
-        return "action_python_program"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
         program_type = tracker.get_slot("program_type")
 
         dispatcher.utter_message(f"Hello Welcome To Our {program_type} Programming World!")

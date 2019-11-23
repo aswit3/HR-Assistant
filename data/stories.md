@@ -33,180 +33,29 @@
 ## interactive_story_1
 * greet
     - utter_greet
-* inform
-    - utter_ask_skills
-* inform{"program_type": "Python"}
-    - action_python_program
+* mood_great
+    - utter_happy
+* greet
+    - action_hello_world
 
 ## interactive_story_1
 * greet
     - utter_greet
+* mood_great
+    - utter_happy
 * inform
     - utter_ask_skills
-* inform{"program_type": "Python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* deny
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "Java"}
+* inform{"program_type": "R"}
+    - slot{"program_type": ["c", "c++", "java", "python", "R"]}
     - action_program_skills
 
 ## interactive_story_1
-* greet
-    - utter_greet
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* inform
-    - utter_ask_skills
 * inform{"program_type": "JAVA"}
-    - action_program_skills
-
-## interactive_story_1
-* mood_great
-* inform
-* inform
-    - utter_ask_skills
-* inform{"program_type": "C++"}
-    - action_program_skills
-
-## interactive_story_1
+    - slot{"program_type": ["JAVA"]}
 * greet
     - utter_greet
 * inform
     - utter_ask_skills
 * inform{"program_type": "python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* inform
-    - utter_ask_skills
-* inform{"program_type": "c"}
+    - slot{"program_type": ["python"]}
     - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - action_python_program
-* inform{"program_type": "c"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_happy
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - action_python_program
-* inform{"program_type": "c"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_happy
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-* inform{"program_type": "java"}
-    - slot{"program_type": "java"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-* inform{"program_type": "c"}
-    - slot{"program_type": "c"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_happy
-* inform
-    - utter_ask_skills
-* inform{"program_type": "python"}
-    - slot{"program_type": "python"}
-    - action_python_program
-* inform{"program_type": "JAVA"}
-    - slot{"program_type": "JAVA"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
-* mood_great
-    - utter_did_that_help
-* inform
-    - utter_ask_skills
-* inform{"program_type": "r"}
-    - slot{"program_type": "r"}
-    - action_program_skills
-* inform{"program_type": "c"}
-    - slot{"program_type": "c"}
-    - action_program_skills
-
-## interactive_story_1
-* greet
-    - utter_greet
