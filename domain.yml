@@ -1,5 +1,6 @@
 actions:
 - action_hello_world
+- action_program_result_checker
 - action_program_skills
 - utter_ask_skills
 - utter_cheer_up
@@ -9,19 +10,25 @@ actions:
 - utter_happy
 - utter_iamabot
 entities:
+- option_type
 - program_type
 intents:
-- greet
 - inform
+- greet
+- answer
+- affirm
 - mood_great
 - goodbye
-- affirm
 - deny
 - mood_unhappy
 - bot_challenge
 slots:
+  option_type:
+    type: list
   program_type:
     type: list
+  result_type:
+    type: bool
 templates:
   utter_ask_skills:
   - text: What is your knowledge in programming?

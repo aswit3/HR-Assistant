@@ -4,6 +4,20 @@
 - of course
 - that sounds good
 - correct
+- yes
+
+## intent:answer
+- [A](option_type)
+- [A](option_type)
+- [b](option_type)
+- [A](option_type)
+- [B](option_type)
+- [A](option_type)
+- [B](option_type)
+- [C](option_type)
+- [C](option_type)
+- [c](option_type)
+- [c](option_type)
 
 ## intent:bot_challenge
 - are you a bot?
@@ -36,6 +50,9 @@
 - hello world
 - hi
 - hi
+- hey what'sup
+- hi
+- hi
 
 ## intent:inform
 - how to apply job here?
@@ -43,6 +60,28 @@
 - hi i know [JAVA](program_type)
 - how can attend test?
 - i know [python](program_type)
+- how to attend test here?
+- i know [r](program_type)
+- i know [java](program_type)
+- i know [java](program_type)
+- i know [r](program_type) language
+- how to attend test here?
+- i know [c](program_type) and [python](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [java](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- how to attend test?
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
+- i know [r](program_type)
 
 ## intent:mood_great
 - perfect
@@ -55,6 +94,8 @@
 - I'm good
 - i am fine. how about you?
 - i am fine. how about you?
+- i am fine. What about you?
+- i am fine
 
 ## intent:mood_unhappy
 - sad

@@ -81,14 +81,14 @@ before interactive if you have custom actions Actions.py, you must run on this c
 https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 ###### install RASA NLU TRAINER
-sudo npm -i rasa-nlu-trainer
+* sudo npm -i rasa-nlu-trainer
 
 ###### RUN 
-before json create sample data.json and then run
+* before json create sample data.json and then run
 
-rasa-nlu-trainer
+* rasa-nlu-trainer
 
-add your intent and entities in data.json
+* add your intent and entities in data.json
 
 ###### address already use find out port process id:
 sudo lsof -i:5005
@@ -98,5 +98,5 @@ SQL install:
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
 
 ###### Install MySQL Driver
-Python needs a MySQL driver to access the MySQL database.Download and install "MySQL Connector":
-python -m pip install mysql-connector 
+* Python needs a MySQL driver to access the MySQL database.Download and install "MySQL Connector":
+* python -m pip install mysql-connector 

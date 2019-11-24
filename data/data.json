@@ -379,6 +379,354 @@
             "entity": "program_type"
           }
         ]
+      },
+      {
+        "text": "option A",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "A",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "answer A B and C",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "A",
+            "entity": "option_type"
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "value": "B",
+            "entity": "option_type"
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "value": "C",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "A is the answer",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "A",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "A",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "A",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "Correct answer is a",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 18,
+            "end": 19,
+            "value": "a",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "result is a",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 10,
+            "end": 11,
+            "value": "a",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "option B and D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "D",
+            "entity": "option_type"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "B",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "answer is B and C",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "C",
+            "entity": "option_type"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "value": "B",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "correct ans is b",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 15,
+            "end": 16,
+            "value": "b",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "ans is b",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "b",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "b is the prefect answer for this question",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "b",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "b",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "b",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "B",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "B",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "a",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "a",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "result is c and d",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "d",
+            "entity": "option_type"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "value": "c",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "c",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "c",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "C",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "C",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "ans is C",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "C",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "result is C",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 10,
+            "end": 11,
+            "value": "C",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "option c",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "c",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "D",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "d",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "d",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "Ans D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "D",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "result is d or D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 15,
+            "end": 16,
+            "value": "D",
+            "entity": "option_type"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "value": "d",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "correct ans is D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 15,
+            "end": 16,
+            "value": "D",
+            "entity": "option_type"
+          }
+        ]
+      },
+      {
+        "text": "option D",
+        "intent": "answer",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "D",
+            "entity": "option_type"
+          }
+        ]
       }
     ],
     "regex_features": [],
