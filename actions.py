@@ -65,7 +65,7 @@ class ActionProgramSkills(Action):
 
         else:
             program = program_type[0]
-            dispatcher.utter_message(f"Hello Welcome To Our {program} Programming World!")
+            #dispatcher.utter_message(f"Hello Welcome To Our {program} Programming World!")
 
             if program == "r":
 
